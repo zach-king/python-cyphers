@@ -2,7 +2,7 @@
 # Reverse Cipher
 # http://inventwithpython.com/hacking (BSD Licensed)
 
-message = 'Three can keep a secret, if two of them are dead.'
+message = input('Enter message: ') 
 translated = ''
 
 i = len(message) - 1
