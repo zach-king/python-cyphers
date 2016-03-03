@@ -13,13 +13,14 @@ key = int(input("Enter key: "))
 mode = input("1) Encrypt\n2) Decrypt\n: ")
 
 # All possible symbols that can be encrypted
-LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+LETTERS = '''
+!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'''
 
 # Stores the encrypted/decrypted form of message
 translated = ''
 
 # Capitalize message
-message = message.upper()
+essage = message.upper()
 
 # Encyprt/Decrypt each symbol in message
 for symbol in message:
